@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1484A74E1C0F5C8B007CCD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1484A74D1C0F5C8B007CCD2A /* AppDelegate.swift */; };
+		1484A7501C0F5C8B007CCD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1484A74F1C0F5C8B007CCD2A /* Assets.xcassets */; };
+		1484A7531C0F5C8B007CCD2A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1484A7511C0F5C8B007CCD2A /* MainMenu.xib */; };
+		1484A75E1C0F5C8B007CCD2A /* LightSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1484A75D1C0F5C8B007CCD2A /* LightSwitchTests.swift */; };
+		1484A7691C0F5C8B007CCD2A /* LightSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1484A7681C0F5C8B007CCD2A /* LightSwitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1484A75A1C0F5C8B007CCD2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1484A7421C0F5C8B007CCD2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1484A7491C0F5C8B007CCD2A;
+			remoteInfo = LightSwitch;
+		};
+		1484A7651C0F5C8B007CCD2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1484A7421C0F5C8B007CCD2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1484A7491C0F5C8B007CCD2A;
+			remoteInfo = LightSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1484A74A1C0F5C8B007CCD2A /* LightSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1484A74D1C0F5C8B007CCD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1484A74F1C0F5C8B007CCD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1484A7521C0F5C8B007CCD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1484A7541C0F5C8B007CCD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1484A7591C0F5C8B007CCD2A /* LightSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1484A75D1C0F5C8B007CCD2A /* LightSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchTests.swift; sourceTree = "<group>"; };
+		1484A75F1C0F5C8B007CCD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1484A7641C0F5C8B007CCD2A /* LightSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1484A7681C0F5C8B007CCD2A /* LightSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchUITests.swift; sourceTree = "<group>"; };
+		1484A76A1C0F5C8B007CCD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1484A7471C0F5C8B007CCD2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1484A7561C0F5C8B007CCD2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1484A7611C0F5C8B007CCD2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1484A7411C0F5C8B007CCD2A = {
+			isa = PBXGroup;
+			children = (
+				1484A74C1C0F5C8B007CCD2A /* LightSwitch */,
+				1484A75C1C0F5C8B007CCD2A /* LightSwitchTests */,
+				1484A7671C0F5C8B007CCD2A /* LightSwitchUITests */,
+				1484A74B1C0F5C8B007CCD2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1484A74B1C0F5C8B007CCD2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1484A74A1C0F5C8B007CCD2A /* LightSwitch.app */,
+				1484A7591C0F5C8B007CCD2A /* LightSwitchTests.xctest */,
+				1484A7641C0F5C8B007CCD2A /* LightSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1484A74C1C0F5C8B007CCD2A /* LightSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				1484A74D1C0F5C8B007CCD2A /* AppDelegate.swift */,
+				1484A74F1C0F5C8B007CCD2A /* Assets.xcassets */,
+				1484A7511C0F5C8B007CCD2A /* MainMenu.xib */,
+				1484A7541C0F5C8B007CCD2A /* Info.plist */,
+			);
+			path = LightSwitch;
+			sourceTree = "<group>";
+		};
+		1484A75C1C0F5C8B007CCD2A /* LightSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1484A75D1C0F5C8B007CCD2A /* LightSwitchTests.swift */,
+				1484A75F1C0F5C8B007CCD2A /* Info.plist */,
+			);
+			path = LightSwitchTests;
+			sourceTree = "<group>";
+		};
+		1484A7671C0F5C8B007CCD2A /* LightSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1484A7681C0F5C8B007CCD2A /* LightSwitchUITests.swift */,
+				1484A76A1C0F5C8B007CCD2A /* Info.plist */,
+			);
+			path = LightSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1484A7491C0F5C8B007CCD2A /* LightSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1484A76D1C0F5C8B007CCD2A /* Build configuration list for PBXNativeTarget "LightSwitch" */;
+			buildPhases = (
+				1484A7461C0F5C8B007CCD2A /* Sources */,
+				1484A7471C0F5C8B007CCD2A /* Frameworks */,
+				1484A7481C0F5C8B007CCD2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightSwitch;
+			productName = LightSwitch;
+			productReference = 1484A74A1C0F5C8B007CCD2A /* LightSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1484A7581C0F5C8B007CCD2A /* LightSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1484A7701C0F5C8B007CCD2A /* Build configuration list for PBXNativeTarget "LightSwitchTests" */;
+			buildPhases = (
+				1484A7551C0F5C8B007CCD2A /* Sources */,
+				1484A7561C0F5C8B007CCD2A /* Frameworks */,
+				1484A7571C0F5C8B007CCD2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1484A75B1C0F5C8B007CCD2A /* PBXTargetDependency */,
+			);
+			name = LightSwitchTests;
+			productName = LightSwitchTests;
+			productReference = 1484A7591C0F5C8B007CCD2A /* LightSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1484A7631C0F5C8B007CCD2A /* LightSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1484A7731C0F5C8B007CCD2A /* Build configuration list for PBXNativeTarget "LightSwitchUITests" */;
+			buildPhases = (
+				1484A7601C0F5C8B007CCD2A /* Sources */,
+				1484A7611C0F5C8B007CCD2A /* Frameworks */,
+				1484A7621C0F5C8B007CCD2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1484A7661C0F5C8B007CCD2A /* PBXTargetDependency */,
+			);
+			name = LightSwitchUITests;
+			productName = LightSwitchUITests;
+			productReference = 1484A7641C0F5C8B007CCD2A /* LightSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1484A7421C0F5C8B007CCD2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Lukas Bisdorf";
+				TargetAttributes = {
+					1484A7491C0F5C8B007CCD2A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1484A7581C0F5C8B007CCD2A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1484A7491C0F5C8B007CCD2A;
+					};
+					1484A7631C0F5C8B007CCD2A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1484A7491C0F5C8B007CCD2A;
+					};
+				};
+			};
+			buildConfigurationList = 1484A7451C0F5C8B007CCD2A /* Build configuration list for PBXProject "LightSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1484A7411C0F5C8B007CCD2A;
+			productRefGroup = 1484A74B1C0F5C8B007CCD2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1484A7491C0F5C8B007CCD2A /* LightSwitch */,
+				1484A7581C0F5C8B007CCD2A /* LightSwitchTests */,
+				1484A7631C0F5C8B007CCD2A /* LightSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1484A7481C0F5C8B007CCD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1484A7501C0F5C8B007CCD2A /* Assets.xcassets in Resources */,
+				1484A7531C0F5C8B007CCD2A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1484A7571C0F5C8B007CCD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1484A7621C0F5C8B007CCD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1484A7461C0F5C8B007CCD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1484A74E1C0F5C8B007CCD2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1484A7551C0F5C8B007CCD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1484A75E1C0F5C8B007CCD2A /* LightSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1484A7601C0F5C8B007CCD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1484A7691C0F5C8B007CCD2A /* LightSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1484A75B1C0F5C8B007CCD2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1484A7491C0F5C8B007CCD2A /* LightSwitch */;
+			targetProxy = 1484A75A1C0F5C8B007CCD2A /* PBXContainerItemProxy */;
+		};
+		1484A7661C0F5C8B007CCD2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1484A7491C0F5C8B007CCD2A /* LightSwitch */;
+			targetProxy = 1484A7651C0F5C8B007CCD2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1484A7511C0F5C8B007CCD2A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1484A7521C0F5C8B007CCD2A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1484A76B1C0F5C8B007CCD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1484A76C1C0F5C8B007CCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1484A76E1C0F5C8B007CCD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukas-bisdorf.lightswitch.LightSwitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1484A76F1C0F5C8B007CCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukas-bisdorf.lightswitch.LightSwitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1484A7711C0F5C8B007CCD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukas-bisdorf.lightswitch.LightSwitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightSwitch.app/Contents/MacOS/LightSwitch";
+			};
+			name = Debug;
+		};
+		1484A7721C0F5C8B007CCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukas-bisdorf.lightswitch.LightSwitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightSwitch.app/Contents/MacOS/LightSwitch";
+			};
+			name = Release;
+		};
+		1484A7741C0F5C8B007CCD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukas-bisdorf.lightswitch.LightSwitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1484A7751C0F5C8B007CCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LightSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.lukas-bisdorf.lightswitch.LightSwitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1484A7451C0F5C8B007CCD2A /* Build configuration list for PBXProject "LightSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1484A76B1C0F5C8B007CCD2A /* Debug */,
+				1484A76C1C0F5C8B007CCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1484A76D1C0F5C8B007CCD2A /* Build configuration list for PBXNativeTarget "LightSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1484A76E1C0F5C8B007CCD2A /* Debug */,
+				1484A76F1C0F5C8B007CCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1484A7701C0F5C8B007CCD2A /* Build configuration list for PBXNativeTarget "LightSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1484A7711C0F5C8B007CCD2A /* Debug */,
+				1484A7721C0F5C8B007CCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1484A7731C0F5C8B007CCD2A /* Build configuration list for PBXNativeTarget "LightSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1484A7741C0F5C8B007CCD2A /* Debug */,
+				1484A7751C0F5C8B007CCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1484A7421C0F5C8B007CCD2A /* Project object */;
+}
