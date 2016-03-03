@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-
+import AppKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -37,7 +37,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         schreibtisch.getStatus()
         var timer = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "checkStatus",userInfo: nil, repeats: true)
         
+        NSWorkspace.sharedWorkspace().notificationCenter.addObserver(self, selector: "sleepListener:", name: NSWorkspaceWillSleepNotification, object: nil)
+        
+        NSWorkspace.sharedWorkspace().notificationCenter.addObserver(self, selector: "sleepListener:", name: NSWorkspaceDidWakeNotification, object: nil)
+        
     }
+    
+    
+    
+    func sleepListener(aNotification : NSNotification) {
+        if aNotification.name == NSWorkspaceWillSleepNotification{
+            schreibtisch.turnOff()
+        }else if aNotification.name == NSWorkspaceDidWakeNotification{
+            schreibtisch.turnOn()
+        }else{
+           // print("Some other event other than the first two")
+        }
+    }
+    
     
     func checkStatus() {
         schreibtisch.getStatus()

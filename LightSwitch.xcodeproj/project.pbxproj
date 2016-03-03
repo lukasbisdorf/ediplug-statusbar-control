@@ -11,6 +11,7 @@
 		1410EF2E1C0F6CBC001EDD1A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1410EF241C0F6BE1001EDD1A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1410EF331C0F758B001EDD1A /* switchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410EF321C0F758B001EDD1A /* switchController.swift */; };
 		1410EF351C103C4D001EDD1A /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410EF341C103C4D001EDD1A /* Events.swift */; };
+		145E65B01C1047050089AF57 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 145E65AF1C1047050089AF57 /* README.md */; };
 		1484A74E1C0F5C8B007CCD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1484A74D1C0F5C8B007CCD2A /* AppDelegate.swift */; };
 		1484A7501C0F5C8B007CCD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1484A74F1C0F5C8B007CCD2A /* Assets.xcassets */; };
 		1484A7531C0F5C8B007CCD2A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1484A7511C0F5C8B007CCD2A /* MainMenu.xib */; };
@@ -109,6 +110,7 @@
 		1410EF151C0F6BE0001EDD1A /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		1410EF321C0F758B001EDD1A /* switchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = switchController.swift; sourceTree = "<group>"; };
 		1410EF341C103C4D001EDD1A /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		145E65AF1C1047050089AF57 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1484A74A1C0F5C8B007CCD2A /* LightSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1484A74D1C0F5C8B007CCD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1484A74F1C0F5C8B007CCD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 		1484A7411C0F5C8B007CCD2A = {
 			isa = PBXGroup;
 			children = (
+				145E65AF1C1047050089AF57 /* README.md */,
 				1410EF151C0F6BE0001EDD1A /* Alamofire.xcodeproj */,
 				1484A74C1C0F5C8B007CCD2A /* LightSwitch */,
 				1484A75C1C0F5C8B007CCD2A /* LightSwitchTests */,
@@ -406,6 +409,7 @@
 			files = (
 				1410EF351C103C4D001EDD1A /* Events.swift in Sources */,
 				1484A74E1C0F5C8B007CCD2A /* AppDelegate.swift in Sources */,
+				145E65B01C1047050089AF57 /* README.md in Sources */,
 				1410EF331C0F758B001EDD1A /* switchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

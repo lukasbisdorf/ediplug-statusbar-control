@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import AppKit
 
 class switchController {
     
@@ -26,6 +27,8 @@ class switchController {
         self.username = username
         self.password = password
         self.host = host
+        
+        
     }
     
     private func createBase64String(input: String) -> String {
@@ -33,6 +36,7 @@ class switchController {
         return utf8str!.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
     }
     
+
     
     private func uploadXmlToHost(xml: NSURL) {
         let headers = [
